@@ -3,10 +3,6 @@
 Esse projeto já está pronto pra rodar. Você só precisa ter o Docker instalado.
 
 Passo 1: Baixe o projeto  
-Clone o repositório com o comando:
-
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git  
-cd SEU_REPOSITORIO
 
 Passo 2: Rode tudo com Docker  
 No terminal, digite:
@@ -21,13 +17,6 @@ Abra o navegador e acesse:
 http://localhost:8000
 
 Se carregar a página PHP, está funcionando.  
-
-Banco de dados:  
-- Host: localhost  
-- Porta: 3307  
-- Usuário: usuario_api  
-- Senha: senha_api_segura  
-- Banco: minha_api_db
 
 Tudo isso já está configurado no arquivo .env e usado no docker-compose.yml.  
 
